@@ -1,4 +1,7 @@
 package com.covoiturage.repository;
 
-public class ReservationRepository {
+import com.covoiturage.entity.Reservation;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ReservationRepository extends JpaRepository<Reservation, Long> {
 }

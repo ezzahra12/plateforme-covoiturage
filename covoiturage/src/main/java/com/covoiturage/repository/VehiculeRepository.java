@@ -1,4 +1,7 @@
 package com.covoiturage.repository;
 
-public class VehiculeRepository {
+import com.covoiturage.entity.Vehicule;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface VehiculeRepository extends JpaRepository<Vehicule, Long> {
 }
